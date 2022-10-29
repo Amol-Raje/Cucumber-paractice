@@ -1,0 +1,783 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-25T16:02:16.306Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1998600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.SetBrowser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.Makemytrip()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Booking a cab Sedan",
+        "description": "",
+        "id": "uber-booking-feture;booking-a-cab-sedan",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.TearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.logOut()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998600,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User wants to select a car type \"sedan\" from uber app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sedan\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefination.UberJourneySteps.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User selects car \"sedan\" and pick up point \"Sangamner\" and drop location \"Banglore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sedan\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Sangamner\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Banglore\"",
+                  "offset": 73
+                }
+              ],
+              "location": "StepDefination.UberJourneySteps.user_selects_car_and_pick_up_point_and_drop_location(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000400,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001400,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "StepDefination.UberJourneySteps.driver_starts_the_journey()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1006600,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "StepDefination.UberJourneySteps.driver_ends_the_journey()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001600,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User pays 1000 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefination.UberJourneySteps.user_pays_usd(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User can check trip details",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-25T16:02:16.505Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.SetBrowser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.Makemytrip()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Booking a cab SUV",
+        "description": "",
+        "id": "uber-booking-feture;booking-a-cab-suv",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.TearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.logOut()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User wants to select a car type \"SUV\" from uber app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SUV\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefination.UberJourneySteps.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User selects car \"SUV\" and pick up point \"Banglore\" and drop location \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SUV\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Banglore\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefination.UberJourneySteps.user_selects_car_and_pick_up_point_and_drop_location(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "StepDefination.UberJourneySteps.driver_starts_the_journey()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "StepDefination.UberJourneySteps.driver_ends_the_journey()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User pays 1000 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefination.UberJourneySteps.user_pays_usd(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-25T16:02:16.679Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.SetBrowser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.Makemytrip()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Booking a cab Mini",
+        "description": "",
+        "id": "uber-booking-feture;booking-a-cab-mini",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.TearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "MyHooks.UberJourney.logOut()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "User wants to select a car type \"Mini\" from uber app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mini\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefination.UberJourneySteps.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 13991600,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User selects car \"Mini\" and pick up point \"Pune\" and drop location \"Mumbai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mini\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Mumbai\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefination.UberJourneySteps.user_selects_car_and_pick_up_point_and_drop_location(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1999000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6994900,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "StepDefination.UberJourneySteps.driver_starts_the_journey()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "StepDefination.UberJourneySteps.driver_ends_the_journey()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "User pays 1000 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefination.UberJourneySteps.user_pays_usd(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "MyHooks.UberJourney.successfullyExecuted()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Prod"
+          }
+        ]
+      }
+    ],
+    "name": "Uber Booking Feture",
+    "description": "",
+    "id": "uber-booking-feture",
+    "keyword": "Feature",
+    "uri": "file:Features/UberJourney.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
